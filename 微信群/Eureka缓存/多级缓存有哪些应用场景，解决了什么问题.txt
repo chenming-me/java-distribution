@@ -1,0 +1,3 @@
+CPU多级缓存，应对不同组件之间的处理速度不一致而存在的。
+eureka的场景，他readOnly和readWrite cache的目的是为了降低并发竞争。
+spring的IOC中三级缓存，解决了循环依赖问题
